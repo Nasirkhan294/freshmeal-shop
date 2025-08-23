@@ -4,7 +4,7 @@
   <h1>🥗 FreshMeal Shop</h1>
 </div>
 
-[FreshMead Shop](./images/preview.png)
+![FreshMead Shop](./images/preview.png)
 
 A modern, responsive **eCommerce website** designed to showcase and sell fresh fruits, vegetables, and groceries online. Features a clean design, product highlights, services section, newsletter subscription, and a user-friendly shopping experience. Perfect for practicing **HTML, CSS, and responsive web design**. 🍓
 
