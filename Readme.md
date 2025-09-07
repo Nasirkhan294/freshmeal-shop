@@ -4,7 +4,7 @@
   <h1>🥗 FreshMeal Shop</h1>
 </div>
 
-![FreshMead Shop](./images/preview.png)
+![FreshMead Shop](/src/assets/preview.png)
 
 A modern, responsive **eCommerce website** designed to showcase and sell fresh fruits, vegetables, and groceries online. Features a clean design, product highlights, services section, newsletter subscription, and a user-friendly shopping experience. Perfect for practicing **React, Bootstrap, and responsive web design**. 🍓
 
@@ -35,7 +35,7 @@ A modern, responsive **eCommerce website** designed to showcase and sell fresh f
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Project Demo](https://nasirkhan294.github.io/freshmeal-shop/)
+- [Live Project Demo](https://freshmeal-shop.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
