@@ -1,0 +1,275 @@
+/* fonts  */
+@font-face {
+    font-family: "Raleway-regular";
+    src: url(/src/fonts/Raleway-Regular.ttf)
+}
+
+@font-face {
+    font-family: "Raleway-medium";
+    src: url(/src/fonts/Raleway-Medium.ttf)
+}
+
+@font-face {
+    font-family: "Raleway-bold";
+    src: url(/src/fonts/Raleway-Bold.ttf)
+}
+
+@font-face {
+    font-family: "Raleway-extrabold";
+    src: url(/src/fonts/Raleway-ExtraBold.ttf)
+}
+
+@font-face {
+    font-family: "Raleway-semibold";
+    src: url(/src/fonts/Raleway-SemiBold.ttf)
+}
+
+@font-face {
+    font-family: "Raleway-black";
+    src: url(/src/fonts/Raleway-Black.ttf)
+}
+
+
+/* colors  */
+:root {
+    --primary: #EEBF00;
+    --secondary: #232B38;
+    --pure: #FEFEFE;
+    --light: #F0F0F0;
+    --footer: #2D333F;
+}
+
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway-regular";
+}
+
+p {
+    font-family: "Raleway-medium";
+}
+
+.top-padding {
+    padding: 6rem 0;
+}
+
+.padding-left {
+    padding-left: 9rem;
+}
+
+.heading {
+    font-family: "Raleway-bold";
+}
+
+.large-font {
+    font-size: 1.3rem;
+}
+
+.btn-hover-secondary:hover {
+    background-color: var(--pure);
+    color: var(--secondary);
+    border-color: var(--secondary);
+}
+
+/* Top dark strip */
+.topbar-dark {
+    background: var(--secondary);
+    color: var(--pure);
+}
+
+.topbar-dark .auth-link {
+    color: var(--pure);
+    text-decoration: none;
+    font-family: "Raleway-semibold";
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.topbar-dark .auth-link:hover {
+    color: var(--primary);
+}
+
+/* Main header */
+.main-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 6px 18px rgba(35, 43, 56, 0.06);
+}
+
+.contact-left .fw-bold,
+.contact-right .fw-bold {
+    font-family: "Raleway-bold";
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0;
+}
+
+.main-nav-links .nav-link {
+    font-family: "Raleway-semibold";
+    padding: 1rem 1.5rem !important;
+    color: var(--secondary);
+    transition: all .2s ease;
+}
+
+.main-nav-links .nav-link.active {
+    background-color: var(--primary);
+    color: var(--pure);
+}
+
+.main-nav-links .nav-link:hover {
+    background-color: var(--primary);
+    color: var(--pure);
+}
+
+.mobile-nav .auth-link {
+    color: var(--secondary);
+    text-decoration: none;
+    font-family: "Raleway bold";
+}
+
+.mobile-nav-links .nav-link {
+    font-family: "Raleway-semibold";
+    padding: 1rem 0 !important;
+    color: var(--secondary);
+    transition: all .2s ease;
+}
+
+.mobile-nav-links .nav-link:hover {
+    color: var(--primary);
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+.navbar-toggler {
+    width: 0;
+    margin-right: 1rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url("/src/assets/hero.png") no-repeat center center/cover;
+    padding: 8rem 0;
+}
+
+.welcome-text {
+    font-family: "Raleway-extrabold";
+    color: var(--secondary);
+    font-size: 1rem;
+}
+
+.hero-title {
+    font-family: "Raleway-extrabold";
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.hero-title .highlight {
+    color: var(--primary);
+}
+
+
+.hero-buttons button {
+    font-family: "Raleway-semibold";
+    font-size: 1.125rem;
+}
+
+/* ===== Top Products Section ===== */
+.swiper-btn {
+    position: absolute;
+    top: 50%;
+    background: var(--primary);
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px !important;
+    outline: none;
+}
+
+.swiper-button-prev {
+    left: 1rem;
+    top: 75.8rem;
+}
+
+.swiper-button-prev:after {
+    font-size: 0.6rem;
+    color: var(--heaven);
+}
+
+.swiper-button-next {
+    right: 1rem;
+    top: 75.8rem;
+}
+
+.swiper-button-next:after {
+    font-size: 0.6rem;
+    color: var(--heaven);
+}
+
+.swiper-cart-btn {
+    font-family: "Raleway-medium";
+    color: var(--secondary);
+    background-color: var(--heaven);
+    border: 2px solid var(--primary);
+    border-radius: 4px;
+    width: 50%;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.swiper-cart-btn:hover {
+    color: var(--heaven);
+    background-color: var(--primary);
+}
+
+.swiper-cart-btn img {
+    background-color: var(--primary);
+    padding: 0.5rem;
+    height: 32px;
+}
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .swiper-btn {
+        display: none !important;
+    }
+
+    .padding-left {
+        padding: 0;
+    }
+
+}
+
+/* ===== Services Section ===== */
+.card-icons {
+    position: absolute;
+    top: -35px;
+    left: 40%;
+}
+
+/* ===== Footer Section ===== */
+footer {
+    background-color: var(--footer);
+    color: var(--pure);
+    padding: 4rem 0 0;
+}
+
+.copyright {
+    background-color: var(--secondary);
+}

@@ -6,16 +6,17 @@
 
 ![FreshMead Shop](./images/preview.png)
 
-A modern, responsive **eCommerce website** designed to showcase and sell fresh fruits, vegetables, and groceries online. Features a clean design, product highlights, services section, newsletter subscription, and a user-friendly shopping experience. Perfect for practicing **HTML, CSS, and responsive web design**. 🍓
+A modern, responsive **eCommerce website** designed to showcase and sell fresh fruits, vegetables, and groceries online. Features a clean design, product highlights, services section, newsletter subscription, and a user-friendly shopping experience. Perfect for practicing **React, Bootstrap, and responsive web design**. 🍓
 
 ---
 
 ## 🛠 Built With <a name="built-with"></a>
 
 <ul>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>JavaScript</li>
+  <li>Vite</li>
+  <li>React</li>
+  <li>React Slick</li>
+  <li>Bootrtrap</li>
 </ul>
 
 ---
