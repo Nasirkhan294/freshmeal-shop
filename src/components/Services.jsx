@@ -4,7 +4,7 @@ const services = [
     title: "Free Home delivery",
     description:
       "Fresh and quality products delivered to your doorstep for free.",
-    icon: "/public/icons/transport.svg",
+    icon: "/icons/transport.svg",
     color: "dark",
     btnClass: "btn-dark fw-bold btn-hover-secondary",
   },
@@ -12,7 +12,7 @@ const services = [
     id: 2,
     title: "30 Days ReturnServices",
     description: "Enjoy hassle-free returns within 30 days of your purchase.",
-    icon: "/public/icons/bag.svg",
+    icon: "/icons/bag.svg",
     color: "warning",
     btnClass: "btn-warning text-white fw-bold",
   },
@@ -20,7 +20,7 @@ const services = [
     id: 3,
     title: "Money Back Guaranteed",
     description: "Shop with confidence with our 100% money-back guarantee.",
-    icon: "/public/icons/usd.svg",
+    icon: "/icons/usd.svg",
     color: "dark",
     btnClass: "btn-dark fw-bold btn-hover-secondary",
   },
@@ -31,7 +31,7 @@ const Services = () => {
     <section className="py-5 bg-light" id="services">
       <div className="container text-center">
         <h4 className="heading mt-3">Our services</h4>
-        <img src="/public/icons/hr.svg" alt="divider" className="mb-5 img-fluid" />
+        <img src="/icons/hr.svg" alt="divider" className="mb-5 img-fluid" />
 
         <div className="row g-5 g-lg-4 my-4">
           {services.map((service) => (

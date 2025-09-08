@@ -5,13 +5,13 @@ function AboutUs() {
     <section className="top-padding" id="about">
       <div className="text-center px-3">
         <h4 className="heading">About Fresh Meal</h4>
-        <img src="/public/icons/hr.svg" alt="divider" className="mb-5 img-fluid" />
+        <img src="/icons/hr.svg" alt="divider" className="mb-5 img-fluid" />
       </div>
       <Container>
         <Row className="align-items-center">
           <Col lg={6}>
             <img
-              src="/public/assets/yogurt.png"
+              src="/assets/yogurt.png"
               alt="Yougurt"
               className="img-fluid"
             />

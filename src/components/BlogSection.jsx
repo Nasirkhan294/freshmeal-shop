@@ -2,7 +2,7 @@ const BlogSection = () => {
   const blogPosts = [
     {
       id: 1,
-      img: "/public/assets/coffee.jpg",
+      img: "/assets/coffee.jpg",
       date: "July 03, 2017",
       author: "FreshMeal",
       comments: 12,
@@ -12,7 +12,7 @@ const BlogSection = () => {
     },
     {
       id: 2,
-      img: "/public/assets/donut.jpg",
+      img: "/assets/donut.jpg",
       date: "July 03, 2017",
       author: "FreshMeal",
       comments: 12,
@@ -27,7 +27,7 @@ const BlogSection = () => {
       <div className="container text-center">
         {/* Section Title */}
         <h4 className="heading mb-2">Latest News from Blog</h4>
-        <img src="/public/icons/hr.svg" alt="divider" className="mb-5 img-fluid" />
+        <img src="/icons/hr.svg" alt="divider" className="mb-5 img-fluid" />
 
         {/* Blog Cards */}
         <div className="row justify-content-center g-4">
