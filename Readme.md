@@ -4,7 +4,7 @@
   <h1>🥗 FreshMeal Shop</h1>
 </div>
 
-![FreshMead Shop](/src/assets/preview.png)
+![FreshMead Shop](/public/assets/preview.png)
 
 A modern, responsive **eCommerce website** designed to showcase and sell fresh fruits, vegetables, and groceries online. Features a clean design, product highlights, services section, newsletter subscription, and a user-friendly shopping experience. Perfect for practicing **React, Bootstrap, and responsive web design**. 🍓
 
@@ -52,6 +52,16 @@ In order to run this project you need:
 git clone git@github.com:Nasirkhan294/freshMeal-shop.git
 
 ```
+
+### Install
+
+- Run ` npm install `
+
+### Usage
+
+To run the project, execute the following command:
+
+- Run ` npm run dev `
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

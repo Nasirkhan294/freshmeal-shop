@@ -64,25 +64,25 @@ const Footer = () => {
             </h6>
             <ul className="list-unstyled mt-3">
               <li className="py-2">
-                <img src="/src/icons/facebook.svg" alt="facebook" />
+                <img src="/public/icons/facebook.svg" alt="facebook" />
                 <a href="#" className="text-light text-decoration-none ms-3">
                   Facebook
                 </a>
               </li>
               <li className="py-2">
-                <img src="/src/icons/twitter.svg" alt="twitter" />
+                <img src="/public/icons/twitter.svg" alt="twitter" />
                 <a href="#" className="text-light text-decoration-none ms-3">
                   Twitter
                 </a>
               </li>
               <li className="py-2">
-                <img src="/src/icons/google.svg" alt="Google" />
+                <img src="/public/icons/google.svg" alt="Google" />
                 <a href="#" className="text-light text-decoration-none ms-3">
                   Google +
                 </a>
               </li>
               <li className="py-2">
-                <img src="/src/icons/instagram.svg" alt="instagram" />
+                <img src="/public/icons/instagram.svg" alt="instagram" />
                 <a href="#" className="text-light text-decoration-none ms-3">
                   Instagram
                 </a>
@@ -99,7 +99,7 @@ const Footer = () => {
               {[...Array(6)].map((_, i) => (
                 <div key={i} className="col-4">
                   <img
-                    src="/src/assets/food-table.jpg"
+                    src="/public/assets/food-table.jpg"
                     alt="instagram"
                     className="img-fluid rounded"
                   />

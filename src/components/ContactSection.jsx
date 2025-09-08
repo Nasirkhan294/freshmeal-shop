@@ -8,7 +8,7 @@ const ContactSection = () => {
             <div className="text-center pt-5">
               <h4 className="heading">Contact Us</h4>
               <img
-                src="/src/icons/hr.svg"
+                src="/public/icons/hr.svg"
                 alt="divider"
                 className="mb-5 img-fluid"
               />
@@ -16,7 +16,7 @@ const ContactSection = () => {
             <div className="padding-left">
               <div className="mb-3 d-flex align-items-start">
                 <div className="me-3 d-flex justify-content-center align-items-center">
-                  <img src="/src/icons/phone-2.svg" alt="Phone" />
+                  <img src="/public/icons/phone-2.svg" alt="Phone" />
                 </div>
                 <div>
                   <h6 className="heading">Call us:</h6>
@@ -26,7 +26,7 @@ const ContactSection = () => {
 
               <div className="mb-3 d-flex align-items-start">
                 <div className="me-3 d-flex justify-content-center align-items-center">
-                  <img src="/src/icons/email.svg" alt="Envelope" />
+                  <img src="/public/icons/email.svg" alt="Envelope" />
                 </div>
                 <div>
                   <h6 className="heading">E-mail :</h6>
@@ -36,7 +36,7 @@ const ContactSection = () => {
 
               <div className="d-flex align-items-start">
                 <div className="me-3 d-flex justify-content-center align-items-center">
-                  <img src="/src/icons/clock-2.svg" alt="" />
+                  <img src="/public/icons/clock-2.svg" alt="" />
                 </div>
                 <div>
                   <h6 className="heading">Working Hours:</h6>

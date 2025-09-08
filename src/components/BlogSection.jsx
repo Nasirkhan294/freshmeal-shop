@@ -2,7 +2,7 @@ const BlogSection = () => {
   const blogPosts = [
     {
       id: 1,
-      img: "/src/assets/coffee.jpg",
+      img: "/public/assets/coffee.jpg",
       date: "July 03, 2017",
       author: "FreshMeal",
       comments: 12,
@@ -12,7 +12,7 @@ const BlogSection = () => {
     },
     {
       id: 2,
-      img: "/src/assets/donut.jpg",
+      img: "/public/assets/donut.jpg",
       date: "July 03, 2017",
       author: "FreshMeal",
       comments: 12,
@@ -23,11 +23,11 @@ const BlogSection = () => {
   ];
 
   return (
-    <section className="top-padding" id="blog" style={{ backgroundColor: "#f9f9f9" }}>
+    <section className="top-padding bg-light" id="blog">
       <div className="container text-center">
         {/* Section Title */}
         <h4 className="heading mb-2">Latest News from Blog</h4>
-        <img src="/src/icons/hr.svg" alt="divider" className="mb-5 img-fluid" />
+        <img src="/public/icons/hr.svg" alt="divider" className="mb-5 img-fluid" />
 
         {/* Blog Cards */}
         <div className="row justify-content-center g-4">

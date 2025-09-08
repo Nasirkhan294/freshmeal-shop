@@ -11,7 +11,7 @@ function HeroSection() {
               {/* Left Column */}
               <Col lg={7} className="text-start">
                 <p className="welcome-text">
-                  Welcome to <img src="/src/icons/logo-2.svg" alt="FreshMeal" />
+                  Welcome to <img src="/public/icons/logo-2.svg" alt="FreshMeal" />
                 </p>
                 <h1 className="hero-title">
                   The World Best <span className="highlight">Shoping</span>{" "}
@@ -39,7 +39,7 @@ function HeroSection() {
               {/* Right Column */}
               <Col lg={5}>
                 <img
-                  src="/src/assets/straw.png"
+                  src="/public/assets/straw.png"
                   alt="Strawberry Jar"
                   className="img-fluid"
                 />
@@ -54,7 +54,7 @@ function HeroSection() {
               {/* Left Column */}
               <Col lg={7} className="text-start">
                 <p className="welcome-text">
-                  Welcome to <img src="/src/icons/logo-2.svg" alt="FreshMeal" />
+                  Welcome to <img src="/public/icons/logo-2.svg" alt="FreshMeal" />
                 </p>
                 <h1 className="hero-title">
                   Fresh & Organic <span className="highlight">Food</span>{" "}
@@ -74,7 +74,7 @@ function HeroSection() {
               {/* Right Column */}
               <Col lg={5} className="text-center">
                 <img
-                  src="/src/assets/vegies.png"
+                  src="/public/assets/vegies.png"
                   alt="Strawberry Jar"
                   className="hero-img img-fluid"
                 />

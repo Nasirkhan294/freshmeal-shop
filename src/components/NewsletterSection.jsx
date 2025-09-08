@@ -6,7 +6,7 @@ const NewsletterSection = () => {
           {/* Left Image */}
           <div className="col-md-6 text-center mb-4 mb-md-0">
             <img
-              src="/src/assets/rasberry.png"
+              src="/public/assets/rasberry.png"
               alt="raspberry"
               className="img-fluid"
               style={{ height: "350px" }}

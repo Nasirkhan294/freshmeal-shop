@@ -9,19 +9,19 @@ function AppNavbar() {
           <Row className="align-items-center">
             <Col md={6} className="d-none d-md-flex align-items-center gap-3">
               <a href="#" className="social-link">
-                <img src="/src/icons/facebook.svg" alt="facebook" />
+                <img src="/public/icons/facebook.svg" alt="facebook" />
               </a>
               <a href="#" className="social-link">
-                <img src="/src/icons/twitter.svg" alt="twitter" />
+                <img src="/public/icons/twitter.svg" alt="twitter" />
               </a>
               <a href="#" className="social-link">
-                <img src="/src/icons/google.svg" alt="google" />
+                <img src="/public/icons/google.svg" alt="google" />
               </a>
               <a href="#" className="social-link">
-                <img src="/src/icons/instagram.svg" alt="instagram" />
+                <img src="/public/icons/instagram.svg" alt="instagram" />
               </a>
               <a href="#" className="social-link">
-                <img src="/src/icons/search.svg" alt="search" />
+                <img src="/public/icons/search.svg" alt="search" />
               </a>
             </Col>
 
@@ -32,7 +32,7 @@ function AppNavbar() {
             >
               <div className="d-flex align-items-center gap-3 auth-mini">
                 <div className="d-none d-md-flex align-items-center">
-                  <img src="/src/icons/user-icon.svg" alt="user" />
+                  <img src="/public/icons/user-icon.svg" alt="user" />
                   <a href="#login" className="auth-link">
                     Login
                   </a>
@@ -41,7 +41,7 @@ function AppNavbar() {
                 <span className="divider">|</span>
 
                 <div className="d-none d-md-flex align-items-center">
-                  <img src="/src/icons/edit.svg" alt="register" />
+                  <img src="/public/icons/edit.svg" alt="register" />
                   <a href="#register" className="auth-link">
                     Register Now
                   </a>
@@ -50,7 +50,7 @@ function AppNavbar() {
                 <span className="divider">|</span>
 
                 <div className="d-flex align-items-center">
-                  <img src="/src/icons/cart.svg" alt="cart" />
+                  <img src="/public/icons/cart.svg" alt="cart" />
                   <a href="#cart" className="auth-link">
                     0 Items - ($0.00)
                   </a>
@@ -69,7 +69,7 @@ function AppNavbar() {
               md={4}
               className="d-none d-md-flex align-items-center contact-left"
             >
-              <img src="/src/icons/phone.svg" alt="phone" className="me-3" />
+              <img src="/public/icons/phone.svg" alt="phone" className="me-3" />
               <div>
                 <span className="small fw-bold">
                   Call US: (+84) 123 456 789
@@ -81,14 +81,14 @@ function AppNavbar() {
             </Col>
 
             <Col xs={12} md={4} className="text-center branding-col">
-              <img src="/src/icons/logo.svg" alt="FreshMeal" height={56} />
+              <img src="/public/icons/logo.svg" alt="FreshMeal" height={56} />
             </Col>
 
             <Col
               md={4}
               className="d-none d-md-flex justify-content-end align-items-center contact-right"
             >
-              <img src="/src/icons/clock.svg" alt="clock" className="me-3" />
+              <img src="/public/icons/clock.svg" alt="clock" className="me-3" />
               <div>
                 <div className="small fw-bold">Working hours</div>
                 <div className="small fw-semibold text-muted">
@@ -131,13 +131,13 @@ function AppNavbar() {
           <Container>
             {/* Logo */}
             <Navbar.Brand href="#home" className="logo">
-              <img src="/src/icons/logo.svg" alt="FreshMeal" height="45" />
+              <img src="/public/icons/logo.svg" alt="FreshMeal" height="45" />
             </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="main-nav" />
             <Navbar.Collapse id="main-nav" className="py-4">
               <div className="d-flex align-items-center mb-3">
-                <img src="/src/icons/cart-dark.svg" alt="cart" height={20} />
+                <img src="/public/icons/cart-dark.svg" alt="cart" height={20} />
                 <a href="#cart" className="auth-link ms-3 fw-bold">
                   0 Items - ($0.00)
                 </a>
@@ -159,7 +159,7 @@ function AppNavbar() {
                 md={4}
                 className="d-flex align-items-center contact-left mt-3"
               >
-                <img src="/src/icons/phone.svg" alt="phone" className="me-2" />
+                <img src="/public/icons/phone.svg" alt="phone" className="me-2" />
                 <div>
                   <span className="small fw-bold">
                     Call US: (+84) 123 456 789

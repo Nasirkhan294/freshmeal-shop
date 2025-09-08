@@ -45,7 +45,7 @@ const DealsCountdown = () => {
       className="text-center text-white py-5"
       style={{
         background:
-          "linear-gradient(rgba(35, 43, 56, 0.9), rgba(35, 43, 56, 0.9)), url('/src/assets/food-table.jpg')",
+          "linear-gradient(rgba(35, 43, 56, 0.9), rgba(35, 43, 56, 0.9)), url('/public/assets/food-table.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -53,7 +53,7 @@ const DealsCountdown = () => {
 
       <div className="container">
         <h4 className="heading mb-2">Big Deals of the Week</h4>
-        <img src="/src/icons/hr.svg" alt="divider" className="mb-5 img-fluid" />
+        <img src="/public/icons/hr.svg" alt="divider" className="mb-5 img-fluid" />
 
         <div className="row justify-content-center g-4">
           <div className="col-6 col-md-3">

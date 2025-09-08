@@ -8,28 +8,28 @@ const products = [
   {
     id: 1,
     name: "Summer Salad",
-    image: "/src/assets/plate-1.png",
+    image: "/public/assets/plate-1.png",
     price: "$ 1.25",
     rating: 3,
   },
   {
     id: 2,
     name: "Russian Salad",
-    image: "/src/assets/plate-2.png",
+    image: "/public/assets/plate-2.png",
     price: "$ 1.25",
     rating: 3,
   },
   {
     id: 3,
     name: "Greek Salad",
-    image: "/src/assets/plate-3.png",
+    image: "/public/assets/plate-3.png",
     price: "$ 1.25",
     rating: 3,
   },
   {
     id: 4,
     name: "Cottage Pie",
-    image: "/src/assets/plate-3.png",
+    image: "/public/assets/plate-3.png",
     price: "$ 1.25",
     rating: 3,
   },
@@ -40,7 +40,7 @@ const TopProducts = () => {
     <section className="bg-light text-center top-padding" id="products">
       <div className="container">
         <h4 className="fw-bold heading">Top Products</h4>
-        <img src="/src/icons/hr.svg" alt="divider" className="mb-5 img-fluid" />
+        <img src="/public/icons/hr.svg" alt="divider" className="mb-5 img-fluid" />
 
         {/* Swiper Slider */}
         <Swiper
@@ -84,8 +84,8 @@ const TopProducts = () => {
                         <img
                           src={
                             i < product.rating
-                              ? "/src/icons/start-filled.svg"
-                              : "/src/icons/star-grey.svg"
+                              ? "/public/icons/start-filled.svg"
+                              : "/public/icons/star-grey.svg"
                           }
                           alt="star"
                           style={{ width: "18px", marginRight: "2px" }}
@@ -100,7 +100,7 @@ const TopProducts = () => {
 
                   <button className="swiper-cart-btn d-flex align-items-center mx-auto">
                     <img
-                      src="/src/icons/cart-2.svg"
+                      src="/public/icons/cart-2.svg"
                       alt="cart"
                       className="img-fluid"
                     />

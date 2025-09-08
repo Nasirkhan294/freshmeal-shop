@@ -1,32 +1,32 @@
 /* fonts  */
 @font-face {
     font-family: "Raleway-regular";
-    src: url(/src/fonts/Raleway-Regular.ttf)
+    src: url(/public/fonts/Raleway-Regular.ttf)
 }
 
 @font-face {
     font-family: "Raleway-medium";
-    src: url(/src/fonts/Raleway-Medium.ttf)
+    src: url(/public/fonts/Raleway-Medium.ttf)
 }
 
 @font-face {
     font-family: "Raleway-bold";
-    src: url(/src/fonts/Raleway-Bold.ttf)
+    src: url(/public/fonts/Raleway-Bold.ttf)
 }
 
 @font-face {
     font-family: "Raleway-extrabold";
-    src: url(/src/fonts/Raleway-ExtraBold.ttf)
+    src: url(/public/fonts/Raleway-ExtraBold.ttf)
 }
 
 @font-face {
     font-family: "Raleway-semibold";
-    src: url(/src/fonts/Raleway-SemiBold.ttf)
+    src: url(/public/fonts/Raleway-SemiBold.ttf)
 }
 
 @font-face {
     font-family: "Raleway-black";
-    src: url(/src/fonts/Raleway-Black.ttf)
+    src: url(/public/fonts/Raleway-Black.ttf)
 }
 
 
@@ -162,7 +162,7 @@ p {
 
 /* Hero Section */
 .hero-section {
-    background: url("/src/assets/hero.png") no-repeat center center/cover;
+    background: url("/public/assets/hero.png") no-repeat center center/cover;
     padding: 8rem 0;
 }
 
